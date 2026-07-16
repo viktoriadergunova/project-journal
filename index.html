@@ -7,38 +7,45 @@
 <meta name="description" content="A running log of small projects, one thread per project.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
+
 <header class="site-head">
-  <div class="avatar">
-    <img src="photo.jpg" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-    <div class="avatar-fallback" aria-hidden="true">
-      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="3.5"/><path d="M4.5 20c1.5-4 4.5-6 7.5-6s6 2 7.5 6"/></svg>
+  <div class="avatar-wrap">
+    <div class="avatar">
+      <img src="https://res.cloudinary.com/bodzxgtw/image/upload/v1784208193/WhatsApp_Image_2026-07-16_at_14.52.00_1_bfkidd.jpg" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="avatar-fallback" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="3.5"/><path d="M4.5 20c1.5-4 4.5-6 7.5-6s6 2 7.5 6"/></svg>
+      </div>
     </div>
+
+    <div class="doodle-caption">that's me</div>
+    <svg class="doodle-arrow" viewBox="0 0 60 40" aria-hidden="true">
+      <path d="M50 4 C 44 9, 40 5, 34 11 C 28 17, 32 13, 24 19 C 18 24, 14 26, 8 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 32 L 15 27" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M8 32 L 12 39" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
   </div>
- 
   <div class="mark">LOG</div>
   <h1>project journal</h1>
   <p class="sub">one thread per project. newest project on top.</p>
   <p class="about">Doing sidequest project till I land my next role.</p>
   <div class="links">
-    <a href="https://github.com/YOURNAME" target="_blank" rel="noopener">github</a>
+    <a href="https://github.com/viktoriadergunova" target="_blank" rel="noopener">github</a>
     <span class="dot">·</span>
-    <a href="mailto:you@example.com">email</a>
+    <a href="mailto:viktoriadergv@gmail.com">email</a>
   </div>
 </header>
- 
+
 <main id="feed" class="feed" aria-live="polite">
   <p class="loading">loading…</p>
 </main>
- 
+
 <footer class="site-foot">
-  <p>updated by hand, project by project — <code>projects.json</code></p>
 </footer>
- 
+
 <script src="script.js"></script>
 </body>
 </html>
