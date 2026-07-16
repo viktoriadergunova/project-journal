@@ -46,17 +46,43 @@ code {
   border-bottom: 1px solid var(--rule);
 }
 
+.avatar-wrap {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 44px;
+}
+
 .avatar {
-  width: 64px;
-  height: 64px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   background: var(--accent-soft);
   border: 1px solid var(--rule);
-  margin: 0 auto 16px;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.doodle-arrow {
+  position: absolute;
+  left: 122px;
+  top: 16px;
+  color: var(--accent);
+  overflow: visible;
+}
+
+.doodle-caption {
+  position: absolute;
+  left: 160px;
+  top: 10px;
+  width: 110px;
+  text-align: left;
+  font-family: 'Caveat', cursive;
+  font-size: 26px;
+  color: var(--accent);
+  line-height: 1.1;
+  transform: rotate(-3deg);
 }
 
 .avatar img {
