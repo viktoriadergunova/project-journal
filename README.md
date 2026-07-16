@@ -1,2 +1,2 @@
 # sidequesting-life
-A journal documentaing my projects 
+A journal documenting my interests, projects, ideas 
