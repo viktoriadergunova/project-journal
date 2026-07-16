@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto; 
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+}
+
+.profile-pic {
+  border-radius: 
+  width: 150px;
+}
+
+.feed {
+  width: 500px; 
+  margin-left: 50px;
+}
+
+.post {
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 40px;
+}
