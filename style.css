@@ -295,7 +295,12 @@ code {
   .feed { padding: 22px 12px 12px; }
 }
 
+@media (min-width: 900px) {
+  .site-head { max-width: 640px; }
+  .feed { max-width: 640px; }
+  .site-foot { max-width: 640px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
 }
-
