@@ -236,7 +236,22 @@ code {
   font-family: var(--mono);
   font-size: 11px;
   color: var(--ink-dim);
-  margin-bottom: 4px;
+}
+
+.log-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.log-part {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--accent-text);
+  background: var(--accent-soft);
+  padding: 2px 7px;
+  border-radius: 10px;
 }
 
 .log-body p {
