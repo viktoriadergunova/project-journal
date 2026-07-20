@@ -49,7 +49,14 @@ function renderProject(project) {
 
 function renderEntry(entry) {
   const body = Array.isArray(entry.body) ? entry.body : [entry.body];
-  const paragraphs = body.map(p => `<p>${escapeHtml(p)}</p>`).join('');
+  const paragraphs = body
+    .map(p => {
+      const isQuoted = p.trim().startsWith('"') && /["」]\.?\s*$/.test(p.trim());
+      return isQuoted
+        ? `<p class="quoted">${escapeHtml(p)}</p>`
+        : `<p>${escapeHtml(p)}</p>`;
+    })
+    .join('');
   const image = entry.image
     ? `<img class="log-image" src="${entry.image}" alt="" loading="lazy">`
     : '';
