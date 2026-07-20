@@ -275,6 +275,10 @@ code {
 
 .log-body p:last-child { margin-bottom: 0; }
 
+.log-body p.quoted {
+  font-style: italic;
+}
+
 .log-image {
   width: 100%;
   border-radius: 8px;
