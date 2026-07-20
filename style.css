@@ -265,8 +265,6 @@ code {
 
 .log-image {
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
   border-radius: 8px;
   margin-top: 20px;
   display: block;
