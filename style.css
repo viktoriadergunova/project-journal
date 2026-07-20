@@ -47,14 +47,14 @@ code {
 }
 
 .avatar-wrap {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .avatar {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   background: var(--accent-soft);
   border: 1px solid var(--rule);
@@ -64,24 +64,18 @@ code {
   justify-content: center;
 }
 
-.doodle-caption {
-  position: absolute;
-  left: 208px;
-  top: 24px;
-  font-family: 'Caveat', cursive;
-  font-size: 30px;
-  color: var(--accent);
-  line-height: 1.1;
-  transform: rotate(-3deg);
-  white-space: nowrap;
+.title-wrap {
+  position: relative;
+  display: inline-block;
+  margin: 10px 0 4px;
 }
 
-.doodle-arrow {
+.title-scribble {
   position: absolute;
-  left: 208px;
-  top: 62px;
-  width: 72px;
-  height: 48px;
+  left: -6px;
+  bottom: -8px;
+  width: 220px;
+  height: 18px;
   color: var(--accent);
 }
 
@@ -110,8 +104,10 @@ code {
   font-family: var(--mono);
   font-weight: 500;
   font-size: 24px;
-  margin: 10px 0 4px;
+  margin: 0;
   letter-spacing: -0.01em;
+  position: relative;
+  z-index: 1;
 }
 
 .site-head .sub {
