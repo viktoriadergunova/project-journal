@@ -39,7 +39,7 @@ code {
 /* header */
 
 .site-head {
-  max-width: 520px;
+  max-width: 470px;
   margin: 0 auto;
   padding: 56px 20px 28px;
   text-align: center;
@@ -139,7 +139,7 @@ code {
 /* feed */
 
 .feed {
-  max-width: 460px;
+  max-width: 470px;
   margin: 0 auto;
   padding: 28px 16px 20px;
 }
@@ -265,6 +265,8 @@ code {
 
 .log-image {
   width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 8px;
   margin-top: 8px;
   display: block;
@@ -282,7 +284,7 @@ code {
 /* footer */
 
 .site-foot {
-  max-width: 460px;
+  max-width: 470px;
   margin: 0 auto;
   padding: 16px 20px 60px;
   text-align: center;
@@ -293,12 +295,6 @@ code {
 @media (max-width: 480px) {
   .site-head { padding: 40px 16px 22px; }
   .feed { padding: 22px 12px 12px; }
-}
-
-@media (min-width: 900px) {
-  .site-head { max-width: 640px; }
-  .feed { max-width: 640px; }
-  .site-foot { max-width: 640px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
