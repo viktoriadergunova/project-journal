@@ -249,6 +249,9 @@ code {
   font-size: 11px;
   color: var(--ink-dim);
 }
+.log-step {
+  margin-top: 36px;
+}
 
 .log-meta {
   display: flex;
