@@ -38,18 +38,18 @@
       {
         "date": "2026-07-29",
         "part": 2,
-        "subtitle": "perspective it what matters ",
+        "subtitle": "the whole thing turns on where you stand",
         "body": [
-          "It seems like standing here, above all, perspective is what truly matters...or how to look at it, at least..., for which we can find some clues in projective geometry.",
+          "It seems like, standing here, above all, perspective is what truly matters...or how to look at it, at least..., for which we can find some clues in projective geometry.",
           ""
         ],
         "steps": [
           {
-            "text": "Lets draw a line with three points on it.",
+            "text": "Let's draw a line with three points on it.",
             "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1785355813/Bildschirmfoto_2026-07-29_um_00.03.31_ttb77l.png"
           },
           {
-            "text": "Lets draw a second parallel line with three points on it.",
+            "text": "Let's draw a second parallel line with three points on it.",
             "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1785355813/Bildschirmfoto_2026-07-29_um_00.05.54_tl4dcj.png"
           },
           {
@@ -58,7 +58,7 @@
           }
         ],
         "closing": [
-          "So lets define perspectivity more formally.",
+          "So let's define perspectivity more formally.",
           "Two sets of points $A_1, A_2, A_3$ and $B_1, B_2, B_3$ are perspective to one another with respect to a point $P$, when the sets can be put into one-to-one correspondence, so that any two corresponding points are joined by a line through $P$.",
           "Point $P$ acts as the central viewpoint, which unites the two separate lines ($a$ and $b$) into a single correlated system."
 
