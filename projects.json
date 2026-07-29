@@ -38,10 +38,9 @@
       {
         "date": "2026-07-29",
         "part": 2,
-        "subtitle": "It seems like standing here, above all, perspective is what truly matters.",
         "body": [
-          "...or how to look at it, at least..., for which we can find some clues in projective geometry."
-
+          "It seems like standing here, above all, perspective is what truly matters...or how to look at it, at least..., for which we can find some clues in projective geometry."
+          ""
         ],
         "steps": [
           {
@@ -53,7 +52,7 @@
             "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1785355813/Bildschirmfoto_2026-07-29_um_00.05.54_tl4dcj.png"
           },
           {
-            "text": "If we look closely, we can connect every point to its corresponding point and see that each of those connecting lines passes through the same point, which we can call the perspectivity point.",
+            "text": "Look closely, we can connect every point to its corresponding point and see that each of those connecting lines passes through the same point, which we can call the perspectivity point.",
             "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1785355814/Bildschirmfoto_2026-07-29_um_00.15.06_ehadyq.png"
           }
         ],
