@@ -58,7 +58,7 @@
         ],
         "closing": [
           "So lets define perspectivity more formally:",
-          "Two sets of points $A_1, A_2, A_3$ and $B_1, B_2, B_3$ are perspective to one another with respect to a point $P$, when the sets can be put into one-to-one correspondence, so that any two corresponding points are joined by a line through $P$.",
+          "Two sets of points $A_1, A_2, A_3$ and $B_1, B_2, B_3$ are perspective to one another with respect to a point $P$, when the sets can be put into one-to-one correspondence, so that any two corresponding points are joined by a line through $P$."
 
         ]
       }
