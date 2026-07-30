@@ -140,7 +140,9 @@ function escapeHtml(str) {
 }
 
 function formatText(str) {
-  return escapeHtml(str).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  return escapeHtml(str)
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>');
 }
 
 loadProjects();
