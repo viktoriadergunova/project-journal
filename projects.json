@@ -70,23 +70,27 @@
       {
         "date": "2026-07-30",
         "part": 3,
-        "subtitle": "peace of mind, favors rules",
+        "subtitle": "peace of mind, favours rules",
         "body": [
           "The formal definition and sketches already show us the obvious: to determine a line, we need two points, and that two lines will eventually meet somewhere, even if that meeting place is inconveniently located at infinity.",
           "From six axioms, we can infer everything we want to know in the projective plane.",
-          "**Axiom 1.** Each pair of distinct points is joined by a unique line.",
-          "**Axiom 2.** Any two lines meet in at least one point. Parallel lines meet at infinity. (Contrary to the parallel postulate of Euclid.)",
-          "**Axiom 3.** There exist at least four distinct points, no three of which are collinear. Points are collinear when they lie on the same line.",
-          "**Axiom 4 (Fano's axiom).** The diagonal points of a complete quadrangle are never collinear."
+          "**Axiom 1.**",
+          "Each pair of distinct points is joined by a unique line.",
+          "**Axiom 2.**",
+          "Any two lines meet in at least one point. Parallel lines meet at infinity. (Contrary to the parallel postulate of Euclid.)",
+          "**Axiom 3.**",
+          "There exist at least four distinct points, no three of which are collinear. Points are collinear when they lie on the same line.",
+          "**Axiom 4 (Fano's axiom).**",
+          "The diagonal points of a complete quadrangle are never collinear."
         ],
         "steps": [
           {
-            "text": "**Axiom 5 (Desargues' theorem).** If two triangles are perspective from a point, then they are perspective from a line."
-
+            "text": "**Axiom 5 (Desargues' theorem).**\nIf two triangles are perspective from a point, then they are perspective from a line."
           }
         ],
         "closing": [
-          "**Axiom 6 (the fundamental theorem of projective geometry).** If a projectivity leaves three distinct points on a line $l$ invariant, then it leaves every point on $l$ invariant."
+          "**Axiom 6 (the fundamental theorem of projective geometry).**",
+          "If a projectivity leaves three distinct points on a line $l$ invariant, then it leaves every point on $l$ invariant."
         ]
       }
     ]
