@@ -70,7 +70,7 @@
       {
         "date": "2026-07-30",
         "part": 3,
-        "subtitle": "for the peace of mind, let's define some rules",
+        "subtitle": "peace of mind, favors rules",
         "body": [
           "The formal definition and sketches already show us the obvious: to determine a line, we need two points, and that two lines will eventually meet somewhere, even if that meeting place is inconveniently located at infinity.",
           "From six axioms, we can infer everything we want to know in the projective plane.",
@@ -81,7 +81,7 @@
         ],
         "steps": [
           {
-            "text": "**Axiom 5 (Desargues' theorem).** If two triangles are perspective from a point, then they are perspective from a line.",
+            "text": "**Axiom 5 (Desargues' theorem).** If two triangles are perspective from a point, then they are perspective from a line."
 
           }
         ],
@@ -90,7 +90,5 @@
         ]
       }
     ]
-  }
-]
   }
 ]
