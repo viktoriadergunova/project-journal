@@ -62,8 +62,8 @@ function renderEntry(entry) {
     .map(p => {
       const isQuoted = p.trim().startsWith('"') && /["」]\.?\s*$/.test(p.trim());
       return isQuoted
-        ? `<p class="quoted">${escapeHtml(p)}</p>`
-        : `<p>${escapeHtml(p)}</p>`;
+        ? `<p class="quoted">${formatText(p)}</p>`
+        : `<p>${formatText(p)}</p>`;
     })
     .join('');
   const imageList = Array.isArray(entry.images)
@@ -76,13 +76,13 @@ function renderEntry(entry) {
   const steps = Array.isArray(entry.steps)
     ? entry.steps.map(s => `
         <div class="log-step">
-          <p>${escapeHtml(s.text || '')}</p>
+          <p>${formatText(s.text || '')}</p>
           ${s.image ? `<img class="log-image" src="${s.image}" alt="" loading="lazy">` : ''}
         </div>
       `).join('')
     : '';
   const closing = Array.isArray(entry.closing)
-    ? entry.closing.map(p => `<p>${escapeHtml(p)}</p>`).join('')
+    ? entry.closing.map(p => `<p>${formatText(p)}</p>`).join('')
     : '';
   const closingImage = entry.closingImage
     ? `<img class="log-image" src="${entry.closingImage}" alt="" loading="lazy">`
@@ -137,6 +137,10 @@ function escapeHtml(str) {
   const div = document.createElement('div');
   div.textContent = str;
   return div.innerHTML;
+}
+
+function formatText(str) {
+  return escapeHtml(str).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 }
 
 loadProjects();
