@@ -77,13 +77,13 @@
         ],
         "steps": [
           {
-            "text": "**Axiom 1.**\nEach pair of distinct points is joined by a unique line."
+            "text": "**Axiom 1**\nEach pair of distinct points is joined by a unique line."
           },
           {
-            "text": "**Axiom 2.**\nAny two lines meet in at least one point. Parallel lines meet at infinity. (Contrary to the parallel postulate of Euclid.)"
+            "text": "**Axiom 2**\nAny two lines meet in at least one point. Parallel lines meet at infinity. (Contrary to the parallel postulate of Euclid.)"
           },
           {
-            "text": "**Axiom 3.**\nThere exist at least four distinct points, no three of which are collinear. Points are collinear when they lie on the same line."
+            "text": "**Axiom 3**\nThere exist at least four distinct points, no three of which are collinear. Points are collinear when they lie on the same line."
           },
           {
             "text": "**Axiom 4 (Fano's axiom).**\nThe diagonal points of a complete quadrangle are never collinear."
