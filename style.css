@@ -330,9 +330,18 @@ code {
   font-size: 12px;
 }
 
+
 @media (max-width: 480px) {
   .site-head { padding: 40px 16px 22px; }
   .feed { padding: 22px 12px 12px; }
+}
+
+@media (min-width: 900px) {
+  .site-head,
+  .feed,
+  .site-foot {
+    max-width: 640px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
