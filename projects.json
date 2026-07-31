@@ -97,5 +97,22 @@
         ]
       }
     ]
+  },
+  {
+    "id": "vem-julia",
+    "title": "numerical analysis and 50 lines of VEM in Julia",
+    "status": "active",
+    "finished": null,
+    "entries": [
+      {
+        "date": "2026-07-31",
+        "part": 1,
+        "body": [
+          "Recently stumbled upon a paper by Sutton, who implemented the virtual element method for the two-dimensional Poisson problem in exactly fifty lines of MATLAB.",
+          "This paper feels like the perfect opportunity to start frictionless, implement it myself, and go through each line, trying to understand the concepts."
+        ],
+        "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1785489385/Bildschirmfoto_2026-07-31_um_11.16.20_j11ilo.png"
+      }
+    ]
   }
 ]
