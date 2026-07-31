@@ -100,20 +100,23 @@ function renderEntry(entry) {
     : '';
 
   return `
-    <div class="log-entry">
+    <div class="log-entry is-collapsed">
       <div class="line"></div>
       <div class="log-body">
-        <div class="log-meta">
+        <button type="button" class="log-meta" aria-expanded="false" onclick="const e=this.closest('.log-entry'); e.classList.toggle('is-collapsed'); this.setAttribute('aria-expanded', !e.classList.contains('is-collapsed'))">
           <span class="log-date">${formatDate(entry.date)}</span>
           ${partLabel}
           ${subtitle}
+          <svg class="log-chevron" viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M6 8 L10 12 L14 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="log-content">
+          ${paragraphs}
+          ${images}
+          ${steps}
+          ${closing}
+          ${closingImage}
+          ${link}
         </div>
-        ${paragraphs}
-        ${images}
-        ${steps}
-        ${closing}
-        ${closingImage}
-        ${link}
       </div>
     </div>
   `;
