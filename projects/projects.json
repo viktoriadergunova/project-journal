@@ -1,0 +1,31 @@
+[
+  {
+    "id": "polynomial-time",
+    "title": "are we really gonna talk about polynomial time in times like this?",
+    "status": "active",
+    "finished": null,
+    "entryFiles": [
+      "projects/polynomial-time/part-1.json"
+    ]
+  },
+  {
+    "id": "focal-points",
+    "title": "focal points, vector spaces and a byzantine saint (teasingly) staring at me",
+    "status": "active",
+    "finished": null,
+    "entryFiles": [
+      "projects/focal-points/part-1.json",
+      "projects/focal-points/part-2.json",
+      "projects/focal-points/part-3.json"
+    ]
+  },
+  {
+    "id": "vem-julia",
+    "title": "numerical analysis and 50 lines of VEM in julia",
+    "status": "active",
+    "finished": null,
+    "entryFiles": [
+      "projects/vem-julia/part-1.json"
+    ]
+  }
+]

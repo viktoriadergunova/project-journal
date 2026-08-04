@@ -2,9 +2,30 @@ async function loadProjects() {
   const feed = document.getElementById('feed');
   try {
     const res = await fetch('projects.json', { cache: 'no-store' });
-    const projects = await res.json();
+    const index = await res.json();
 
-    if (!projects.length) {
+    if (!index.length) {
+      feed.innerHTML = '<p class="empty">no entries yet.</p>';
+      return;
+    }
+
+    // For each project, fetch all of its entry files in parallel.
+    const projects = await Promise.all(index.map(async (proj) => {
+      const files = Array.isArray(proj.entryFiles) ? proj.entryFiles : [];
+      const entries = await Promise.all(files.map(async (path) => {
+        try {
+          const r = await fetch(path, { cache: 'no-store' });
+          if (!r.ok) throw new Error(`${path}: ${r.status}`);
+          return await r.json();
+        } catch (err) {
+          console.error('Failed to load entry file:', path, err);
+          return null;
+        }
+      }));
+      return { ...proj, entries: entries.filter(Boolean) };
+    }));
+
+    if (!projects.some(p => p.entries.length)) {
       feed.innerHTML = '<p class="empty">no entries yet.</p>';
       return;
     }
@@ -149,4 +170,3 @@ function formatText(str) {
 }
 
 loadProjects();
-
