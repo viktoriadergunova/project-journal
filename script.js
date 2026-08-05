@@ -67,8 +67,11 @@ function renderProject(project) {
 
   const sourcesHtml = Array.isArray(project.sources) && project.sources.length
     ? `
-      <div class="sources">
-        <div class="sources-label">SOURCES</div>
+      <div class="sources is-collapsed">
+        <button type="button" class="sources-label" aria-expanded="false" onclick="const e=this.closest('.sources'); e.classList.toggle('is-collapsed'); this.setAttribute('aria-expanded', !e.classList.contains('is-collapsed'))">
+          MATERIAL
+          <svg class="log-chevron" viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M6 8 L10 12 L14 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
         <ul class="sources-list">
           ${project.sources.map(s => `<li>${formatText(s)}</li>`).join('')}
         </ul>
@@ -177,6 +180,7 @@ function escapeHtml(str) {
 function formatText(str) {
   return escapeHtml(str)
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
     .replace(/\n/g, '<br>');
 }
 
