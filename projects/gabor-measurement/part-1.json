@@ -4,8 +4,8 @@
   "subtitle": "inverting or inventing problems?",
   "body": [
     "Taking an image, and somewhere in it sits a line. Now, what if one wanted to know how long it is? The obvious solution is first to detect and extract the line, and afterwards to measure it, treating the measurement as a geometric problem separated from the detection problem.",
-    "This usually works pretty well, but a separated problem space also means that each stage gets its own algorithms, therefore its own chance to introduce errors that doesn't cancel out and propagates to the final results.",
-    "What if one were to invert this workflow, for the sake of inverting? This means that, rather than using an image filter only to locate features and then separately measuring them, the filter itself could serve as the measuring instrument, eliminating the need for the mentioned separation.",
+    "This usually works pretty well, but a separated problem space also means that each stage gets its own algorithms, therefore its own chance to introduce errors that don't cancel out and propagate to the final results.",
+    "What if one were to invert this workflow, for the sake of inverting? Rather than using an image filter only to locate features and then separately measuring them, the filter itself could serve as the measuring instrument, eliminating the need for the mentioned separation.",
     "Let's define what measuring actually means."
   ],
   "steps": [
