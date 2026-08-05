@@ -103,7 +103,7 @@ function renderEntry(entry) {
       `).join('')
     : '';
   const closing = Array.isArray(entry.closing)
-    ? entry.closing.map(p => `<p>${formatText(p)}</p>`).join('')
+    ? `<div class="log-closing">${entry.closing.map(p => `<p>${formatText(p)}</p>`).join('')}</div>`
     : '';
   const closingImage = entry.closingImage
     ? `<img class="log-image" src="${entry.closingImage}" alt="" loading="lazy">`

@@ -318,6 +318,21 @@ code {
   margin-top: 14px;
 }
 
+.log-closing {
+  margin-top: 14px;
+}
+
+.log-closing p {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+.log-closing p:last-child {
+  margin-bottom: 0;
+}
+
 .log-step p {
   margin: 0 0 8px;
   font-size: 14px;

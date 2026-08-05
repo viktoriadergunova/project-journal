@@ -3,9 +3,10 @@
   "part": 1,
   "subtitle": "inverting problems",
   "body": [
-    "Taking an image, and somewhere in it sits a line. Now, what if one wanted to know how long it is? The obvious solution is to first detect and extract the line, and afterwards to measure it, treating the measurement as a geometric problem separated from the detection problem. This usually works pretty well, but a separated problem space also means that each stage gets its own algorithms, therefore its own chance to introduce error that doesn't cancel out and propagates to the final results.",
+    "Taking an image, and somewhere in it sits a line. Now, what if one wanted to know how long it is? The obvious solution is to first detect and extract the line, and afterwards to measure it, treating the measurement as a geometric problem separated from the detection problem.",
+    "This usually works pretty well, but a separated problem space also means that each stage gets its own algorithms, therefore its own chance to introduce error that doesn't cancel out and propagates to the final results.",
     "What if one were to invert this workflow, for the sake of inverting? This means that, rather than using an image filter only to locate features and then separately measuring them, the filter itself could serve as the measuring instrument, eliminating the need for the mentioned separation.",
-    "Lets look into what measuring actually is."
+    "Lets define what measuring actually means."
   ],
   "steps": [
     {
@@ -19,6 +20,6 @@
     }
   ],
   "closing": [
-    "So that means for our filter, that equal line lengths give consistent results (20px = 20px), that lengths are additive, and that our filter response, currently in frequency, gets converted into a distance unit."
+    "So that means for our filter, that equal line lengths should give consistent results (20px = 20px), that lengths are additive, and that our filter response, currently in frequency, should be converted into a distance unit."
   ]
 } 
