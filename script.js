@@ -65,6 +65,17 @@ function renderProject(project) {
 
   const entriesHtml = entries.map(renderEntry).join('');
 
+  const sourcesHtml = Array.isArray(project.sources) && project.sources.length
+    ? `
+      <div class="sources">
+        <div class="sources-label">SOURCES</div>
+        <ul class="sources-list">
+          ${project.sources.map(s => `<li>${formatText(s)}</li>`).join('')}
+        </ul>
+      </div>
+    `
+    : '';
+
   return `
     <article class="project ${isDone ? 'done' : ''}">
       <div class="project-head">
@@ -72,7 +83,7 @@ function renderProject(project) {
         <h2 class="project-title">${escapeHtml(project.title || '')}</h2>
         <span class="status ${isDone ? 'done' : 'active'}">${statusLabel}</span>
       </div>
-      <div class="entries">${entriesHtml}</div>
+      <div class="entries">${entriesHtml}${sourcesHtml}</div>
     </article>
   `;
 }
