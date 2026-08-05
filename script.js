@@ -69,7 +69,7 @@ function renderProject(project) {
     ? `
       <div class="sources is-collapsed">
         <button type="button" class="sources-label" aria-expanded="false" onclick="const e=this.closest('.sources'); e.classList.toggle('is-collapsed'); this.setAttribute('aria-expanded', !e.classList.contains('is-collapsed'))">
-          MATERIAL
+          INFLUENCES
           <svg class="log-chevron" viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M6 8 L10 12 L14 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
         <ul class="sources-list">
