@@ -11,13 +11,14 @@
   {
     "id": "focal-points",
     "title": "focal points, vector spaces and a byzantine saint (teasingly) staring at me",
-    "status": "active",
+    "status": "done",
     "finished": null,
     "entryFiles": [
       "projects/focal-points/part-1.json",
       "projects/focal-points/part-2.json",
       "projects/focal-points/part-3.json",
-      "projects/focal-points/part-4.json"
+      "projects/focal-points/part-4.json",
+      "projects/focal-points/part-5.json"
     ]
   },
   {
