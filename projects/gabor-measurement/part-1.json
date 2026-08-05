@@ -20,6 +20,6 @@
     }
   ],
   "closing": [
-    "So that means for our filter, that equal line lengths should give consistent results (20px = 20px), that lengths are additive, and that our filter response, currently in frequency, should be converted into a distance unit."
+    "So that means for our filter, that equal line lengths should give consistent results (20px = 20px), that lengths are additive (10px+5px=15px), and that our filter response, currently in frequency, should be converted into a distance unit."
   ]
 } 
