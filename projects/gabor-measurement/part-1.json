@@ -3,17 +3,17 @@
   "part": 1,
   "subtitle": "inverting or inventing problems?",
   "body": [
-    "Taking an image, and somewhere in it sits a line. Now, what if one wanted to know how long it is? The obvious solution is to first detect and extract the line, and afterwards to measure it, treating the measurement as a geometric problem separated from the detection problem.",
-    "This usually works pretty well, but a separated problem space also means that each stage gets its own algorithms, therefore its own chance to introduce error that doesn't cancel out and propagates to the final results.",
+    "Taking an image, and somewhere in it sits a line. Now, what if one wanted to know how long it is? The obvious solution is first to detect and extract the line, and afterwards to measure it, treating the measurement as a geometric problem separated from the detection problem.",
+    "This usually works pretty well, but a separated problem space also means that each stage gets its own algorithms, therefore its own chance to introduce errors that doesn't cancel out and propagates to the final results.",
     "What if one were to invert this workflow, for the sake of inverting? This means that, rather than using an image filter only to locate features and then separately measuring them, the filter itself could serve as the measuring instrument, eliminating the need for the mentioned separation.",
-    "Lets define what measuring actually means."
+    "Let's define what measuring actually means."
   ],
   "steps": [
     {
       "text": "**Axiom 1 (Equality).**\n$M_a = M_b$ if $a \\cong b$: two lines of the same physical length should produce the same measurement."
     },
     {
-      "text": "**Axiom 2 (Additivity).**\n$M_a = M_{b+c}$ where $a = b + c$. the measurement should reflect that combined length."
+      "text": "**Axiom 2 (Additivity).**\n$M_a = M_{b+c}$ where $a = b + c$: the measurement should reflect that combined length."
     },
     {
       "text": "**Axiom 3 (A measurement unit).**\nEvery measurement needs a unit, pixels, millimeters, meters."
