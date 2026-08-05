@@ -33,7 +33,7 @@
     "status": "active",
     "finished": null,
      "sources": [
-      "Buse, R., Liu, Z-Q. & Caelli, T., Using Gabor Filters to Measure the Physical Parameters of Lines (Pattern Recognition, 1996)",
+      "Buse, R., Liu, Z-Q. & Caelli, T., Using Gabor Filters to Measure the Physical Parameters of Lines (Pattern Recognition, 1996)"
 
     ],
     "entryFiles": [
@@ -46,7 +46,7 @@
     "status": "active",
     "finished": null,
      "sources": [
-      "Sutton, O.J., The Virtual Element Method in 50 Lines of MATLAB (Numerical Algorithms, 75(4), 2017)",
+      "Sutton, O.J., The Virtual Element Method in 50 Lines of MATLAB (Numerical Algorithms, 75(4), 2017)"
     ],
     "entryFiles": [
       "projects/vem-julia/part-1.json"
