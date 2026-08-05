@@ -20,6 +20,15 @@
     ]
   },
   {
+    "id": "gabor-measurement",
+    "title": "measuring length using amplitude response by Buse et al.",
+    "status": "active",
+    "finished": null,
+    "entryFiles": [
+      "projects/gabor-measurement/part-1.json"
+    ]
+  },
+  {
     "id": "vem-julia",
     "title": "numerical analysis and 50 lines of VEM in julia",
     "status": "active",
