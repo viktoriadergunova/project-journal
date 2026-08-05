@@ -1,7 +1,7 @@
 {
   "date": "2026-08-03",
   "part": 1,
-  "subtitle": "inverting problems",
+  "subtitle": "inverting or inventing problems?",
   "body": [
     "Taking an image, and somewhere in it sits a line. Now, what if one wanted to know how long it is? The obvious solution is to first detect and extract the line, and afterwards to measure it, treating the measurement as a geometric problem separated from the detection problem.",
     "This usually works pretty well, but a separated problem space also means that each stage gets its own algorithms, therefore its own chance to introduce error that doesn't cancel out and propagates to the final results.",
