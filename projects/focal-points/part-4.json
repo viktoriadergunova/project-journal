@@ -13,7 +13,4 @@
     "The crowd with the scattered figures across the fresco provide the non-degenerate space required by **Axiom 3**, ensuring there are at least four distinct points that do not all collapse into a single line.",
     "Looking at the geometric grids of the floor tiles and architectural framing, one could draw complete quadrangles whose diagonal points would maintain proper, non-collinear projective separation, as described in **Axiom 4**.",
     "Any two triangles built from points already sitting on those converging lines are automatically perspective from that point. **Axiom 5** promises that their corresponding sides will always meet at three points lying on a single line, no matter which points along the lines the triangles happen to be built from.",
-    "**Axiom 6** is harder to point at directly, since it's a statement about transformations rather than a fixed scene, but it's the reason a perspective construction like this one is rigid at all. Once the painter fixed where the key points had to land, every other point along those same lines was already decided, no freedom was left to place them differently and still have the geometry hold together.",
-    "This rigidity creates a fixed illusion for the observer, because the eye focuses on the perspectivity points and sinks the observer into the painting."
-  ]
-}
+    "**Axiom 6** is harder to point at directly, since it's a statement about transformations rather than a fixed scene, but it's the reason a perspective construction like this one is rigid at all. Once you know where any three points on one of these lines actually sit, every other point on that same line is already decided. There's no freedom left to place it anywhere else and still have the geometry hold together."
