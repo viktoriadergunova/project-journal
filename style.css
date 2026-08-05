@@ -263,6 +263,8 @@ code {
   cursor: pointer;
   text-align: left;
   font: inherit;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .log-chevron {
@@ -382,6 +384,8 @@ code {
   letter-spacing: 0.25em;
   color: var(--accent-text);
   margin-bottom: 10px;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .sources.is-collapsed .sources-label {
@@ -481,4 +485,5 @@ code {
 
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
+}
 }
