@@ -37,7 +37,8 @@
 
     ],
     "entryFiles": [
-      "projects/gabor-measurement/part-1.json"
+      "projects/gabor-measurement/part-1.json",
+      "projects/gabor-measurement/part-2.json"
     ]
   },
   {
