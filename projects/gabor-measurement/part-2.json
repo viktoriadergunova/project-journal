@@ -1,7 +1,7 @@
 {
   "date": "2026-08-06",
   "part": 2,
-  "subtitle": "envelope was brought to the carrier, pigeons face difficulties finding employment",
+  "subtitle": "envelope was brought to the carrier",
   "body": [
     "The equation seems complicated at first, but it's simply the product of a Gaussian envelope and a sinusoidal wave.",
     "(1) $$g(x,y)=\\exp\\left[-\\pi(2\\beta f)^2(x^2+y^2)\\right]\\cos(2\\pi(ux+vy))$$",
