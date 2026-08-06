@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-06",
+  "part": 2,
+  "body": [
+    "The equation seems complicated at first, but it's simply the product of a Gaussian envelope and a sinusoidal wave.",
+    "(1) $$g(x,y)=\\exp\\left[-\\pi(2\\beta f)^2(x^2+y^2)\\right]\\cos(2\\pi(ux+vy))$$",
+    "The first term is the Gaussian envelope, whose whole point is to localize the filter so that it only responds to nearby image structures. Without it, the sinusoidal wave would extend infinitely across the image.",
+    "Visually arguing, the Gaussian has its highest value at the centre and smoothly decays outward."
+  ],
+  "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1786036029/Bildschirmfoto_2026-08-06_um_19.06.51_bbgnaw.png",
+  "steps": [
+    {
+      "text": "(2) $$\\exp\\left[-\\pi(2\\beta f)^2(x^2+y^2)\\right]$$"
+    },
+    {
+      "text": "This term introduces two important parameters, which together control the shape of the gaussian envelope."
+    },
+    {
+      "text": "* β – the bandwidth parameter. It controls the rate of decay relative to the wavelength. A larger β produces a narrower, more localized envelope, while a smaller β spreads the filter over a larger area."
+    },
+    {
+      "text": "* f – the spatial frequency. It determines the scale of the filter. Together with β, it sets the width of the Gaussian."
+    },
+    {
+      "text": "The relationship between these two parameters f, ß is interesting, because it is the same tradeoff as the uncertainty principle in Fourier analysis, which means you cannot have a filter that is perfectly localized in space and perfectly localized in frequency at the same time. In plain words, you can get good spatial resolution or good frequency resolution, but not both at once, which is also a reason why multi-scale approaches are valuable."
+    },
+    {
+      "text": "The second term is a sinusoidal wave, consisting of alternating positive and negative lobes that make the filter sensitive to periodic patterns in the image.",
+      "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1786036000/Bildschirmfoto_2026-08-06_um_17.56.46_zbgoyo.png"
+    },
+    {
+      "text": "(3) $$\\cos(2\\pi(ux+vy))$$"
+    },
+    {
+      "text": "This part introduces the orientation parameters:"
+    },
+    {
+      "text": "* u – the frequency component along the x-axis."
+    },
+    {
+      "text": "* v – the frequency component along the y-axis."
+    },
+    {
+      "text": "Together, u and v form a frequency vector, with magnitude f = √(u² + v²) and direction θ. This gives:"
+    },
+    {
+      "text": "(4) $$u = f\\cos\\theta, \\quad v = f\\sin\\theta$$"
+    },
+    {
+      "text": "Changing θ rotates the wave while f = √(u² + v²) remains constant, guaranteeing that orientation and frequency vary independently."
+    },
+    {
+      "text": "We said that f and β define the shape of the gaussian envelope, so intuitively, the same shape also governs orientation resolution. This gives us a resolution-angle tradeoff where a filter tuned to one orientation θ still responds, to some degree, to features at nearby angles, and how much depends on the size of β. In plain words, the filter can only see the orientation that the shape of its envelope allows it to resolve."
+    }
+  ]
+}
