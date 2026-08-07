@@ -3,12 +3,12 @@
   "part": 2,
   "subtitle": "envelope was brought to the carrier, pigeons are joining the workers union",
   "body": [
-    "The equation seems complicated at first, but it's simply the product of a Gaussian envelope and a sinusoidal wave.",
+    "The equation seems complicated at first, but it's simply the product of a gaussian envelope and a sinusoidal wave carrier.",
     "$$g(x,y)=\\exp\\left[-\\pi(2\\beta f)^2(x^2+y^2)\\right]\\cos(2\\pi(ux+vy))\\tag{1}$$",
-    "The first term is the Gaussian envelope, whose whole point is to localize the filter so that it only responds to nearby image structures. Without it, the sinusoidal wave would extend infinitely across the image.",
-    "Visually arguing, the Gaussian has its highest value at the centre and smoothly decays outward."
+    "The first term is the gaussian envelope, whose whole point is to localize the filter so that it only responds to nearby image structures and without it, the sinusoidal wave would extend infinitely across the image.",
+    "Visually arguing, the gaussian has its highest value at the centre and smoothly decays outward."
   ],
-  "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1786036029/Bildschirmfoto_2026-08-06_um_19.06.51_bbgnaw.png",
+  "image": "https://res.cloudinary.com/bodzxgtw/image/upload/c_crop,g_north_west,h_637,w_612,y_4/Bildschirmfoto_2026-08-06_um_19.06.51_bbgnaw.png",
   "steps": [
     {
       "text": "$$\\exp\\left[-\\pi(2\\beta f)^2(x^2+y^2)\\right]\\tag{2}$$"
@@ -17,13 +17,13 @@
       "text": "This term introduces two important parameters, which together control the shape of the gaussian envelope."
     },
     {
-      "text": "* β – the bandwidth parameter. It controls the decay rate as a function of wavelength. A larger β produces a narrower, more localized envelope, while a smaller β spreads the filter over a larger area."
+      "text": "β – the bandwidth parameter, which controls the decay rate as a function of wavelength. A larger β produces a narrower, more localized envelope, while a smaller β spreads the filter over a larger area."
     },
     {
-      "text": "* f – the spatial frequency. It determines the scale of the filter. Together with β, it sets the width of the Gaussian."
+      "text": "f – the spatial frequency, which determines the scale of the filter."
     },
     {
-      "text": "The relationship between these two parameters f, ß is interesting, because it is the same tradeoff as the uncertainty principle in Fourier analysis, which means you cannot have a filter that is perfectly localized in space and perfectly localized in frequency at the same time. In plain words, you can get good spatial resolution or good frequency resolution, but not both at once, which is also a reason why multi-scale approaches are valuable."
+      "text": "Together, both parameters set the width of the gaussian. The relationship between f, ß is interesting, because it is the same tradeoff as the uncertainty principle in fourier analysis. That means you cannot have a filter that is perfectly localized in space and perfectly localized in frequency at the same time. In plain words, you can get good spatial resolution or good frequency resolution, but not both at once, which is also a reason why multi-scale approaches are valuable."
     },
     {
       "text": "The second term is a sinusoidal wave, consisting of alternating positive and negative lobes that make the filter sensitive to periodic patterns in the image.",
@@ -36,10 +36,10 @@
       "text": "This part introduces the orientation parameters:"
     },
     {
-      "text": "* u – the frequency component along the x-axis."
+      "text": "u – the frequency component along the x-axis."
     },
     {
-      "text": "* v – the frequency component along the y-axis."
+      "text": "v – the frequency component along the y-axis."
     },
     {
       "text": "Together, u and v form a frequency vector, with magnitude f = √(u² + v²) and direction θ. This gives:"
@@ -51,14 +51,14 @@
       "text": "Changing θ rotates the wave while f = √(u² + v²) remains constant, guaranteeing that orientation and frequency vary independently."
     },
     {
-      "text": "We said that f and β define the shape of the gaussian envelope, so intuitively, the same shape also governs orientation resolution. This gives us a resolution-angle tradeoff where a filter tuned to one orientation θ still responds, to some degree, to features at nearby angles, and how much depends on the size of β. In plain words, the filter can only see the orientation that the shape of its envelope allows it to resolve."
+      "text": "We said that f and β define the shape of the gaussian envelope, so intuitively, the same shape also governs orientation resolution. This gives a resolution-angle tradeoff where a filter tuned to one orientation θ still responds, to some degree, to features at nearby angles, and how much depends on the size of β. In plain words, the filter can only see the orientation that the shape of its envelope allows it to resolve."
     },
     {
-      "text": "Long story short, the gaussian envelope determines where the filter looks, while the sinusoidal wave determines what pattern it looks for. Once both terms are multiplied, we get a Gabor filter an orientation-selective band-pass filter. A multi-scale approach of such filters at different scales and orientations, run over the same image, is called a Gabor filter bank.",
+      "text": "Long story short, the gaussian envelope determines where the filter looks, while the sinusoidal wave carrier determines what pattern it looks for. Once both terms are multiplied, we get an orientation-selective band-pass gabor filter. A multi-scale approach of such filters at different scales and orientations, run over the same image, is called a gabor filter bank.",
       "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1786036032/Bildschirmfoto_2026-08-06_um_19.07.08_jcd1be.png"
     }
   ],
   "closing": [
-    "So all we get for now is an gabor response at the end.. .or multiple of them.. .evaluating this over a range of parameters …and looking at the change… the response curve would be interesting to look at."
+    "So all we get for now is a gabor response...or several if we're feeling ambitious...evaluating this over a range of parameters...and watching the rate of changes..., presumably, is interesting."
   ]
 }
