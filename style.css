@@ -310,6 +310,12 @@ code {
   line-height: 1.5;
 }
 
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px 0;
+}
+
 .log-body p:last-child { margin-bottom: 0; }
 
 .log-body p.quoted {
