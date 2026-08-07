@@ -51,7 +51,7 @@
       "text": "Changing θ rotates the wave while **f = √(u² + v²)** remains constant, guaranteeing that orientation and frequency vary independently."
     },
     {
-      "text": "We said that f and β define the shape of the gaussian envelope, so intuitively, the same shape also governs orientation resolution. This gives a resolution-angle tradeoff where a filter tuned to one orientation θ still responds, to some degree, to features at nearby angles, and how much depends on the size of β. In plain words, the filter can only see the orientation that the shape of its envelope allows it to resolve."
+      "text": "We said that **f** and **β** define the shape of the gaussian envelope, so intuitively, the same shape also governs orientation resolution. This gives a resolution-angle tradeoff where a filter tuned to one orientation **θ** still responds, to some degree, to features at nearby angles, and how much depends on the size of **β**. In plain words, the filter can only see the orientation that the shape of its envelope allows it to resolve."
     },
     {
       "text": "Long story short, the gaussian envelope determines where the filter looks, while the sinusoidal wave carrier determines what pattern it looks for. Once both terms are multiplied, we get an orientation-selective band-pass gabor filter. A multi-scale approach of such filters at different scales and orientations, run over the same image, is called a gabor filter bank.",
