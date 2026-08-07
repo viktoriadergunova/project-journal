@@ -17,7 +17,7 @@
       "text": "This term introduces two important parameters, which together control the shape of the gaussian envelope."
     },
     {
-      "text": "* β – the bandwidth parameter. It controls the rate of decay relative to the wavelength. A larger β produces a narrower, more localized envelope, while a smaller β spreads the filter over a larger area."
+      "text": "* β – the bandwidth parameter. It controls the decay rate as a function of wavelength. A larger β produces a narrower, more localized envelope, while a smaller β spreads the filter over a larger area."
     },
     {
       "text": "* f – the spatial frequency. It determines the scale of the filter. Together with β, it sets the width of the Gaussian."
