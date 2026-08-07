@@ -17,13 +17,13 @@
       "text": "This term introduces two important parameters, which together control the shape of the gaussian envelope."
     },
     {
-      "text": "β – the bandwidth parameter, which controls the decay rate as a function of wavelength. A larger β produces a narrower, more localized envelope, while a smaller β spreads the filter over a larger area."
+      "text": "**β** – the bandwidth parameter, which controls the decay rate as a function of wavelength. A larger β produces a narrower, more localized envelope, while a smaller β spreads the filter over a larger area."
     },
     {
-      "text": "f – the spatial frequency, which determines the scale of the filter."
+      "text": "**f** – the spatial frequency, which determines the scale of the filter."
     },
     {
-      "text": "Together, both parameters set the width of the gaussian. The relationship between f, ß is interesting, because it is the same tradeoff as the uncertainty principle in fourier analysis. That means you cannot have a filter that is perfectly localized in space and perfectly localized in frequency at the same time. In plain words, you can get good spatial resolution or good frequency resolution, but not both at once, which is also a reason why multi-scale approaches are valuable."
+      "text": "Together, both parameters set the width of the gaussian. The relationship between **f** and **ß** is interesting, because it is the same tradeoff as the uncertainty principle in fourier analysis. That means you cannot have a filter that is perfectly localized in space and perfectly localized in frequency at the same time. In plain words, you can get good spatial resolution or good frequency resolution, but not both at once, which is also a reason why multi-scale approaches are valuable."
     },
     {
       "text": "The second term is a sinusoidal wave, consisting of alternating positive and negative lobes that make the filter sensitive to periodic patterns in the image.",
@@ -36,19 +36,19 @@
       "text": "This part introduces the orientation parameters:"
     },
     {
-      "text": "u – the frequency component along the x-axis."
+      "text": "**u** – the frequency component along the x-axis."
     },
     {
-      "text": "v – the frequency component along the y-axis."
+      "text": "**v** – the frequency component along the y-axis."
     },
     {
-      "text": "Together, u and v form a frequency vector, with magnitude f = √(u² + v²) and direction θ. This gives:"
+      "text": "Together, **u** and **v** form a frequency vector, with magnitude **f = √(u² + v²)** and direction **θ**. This gives:"
     },
     {
       "text": "$$u = f\\cos\\theta, \\quad v = f\\sin\\theta\\tag{4}$$"
     },
     {
-      "text": "Changing θ rotates the wave while f = √(u² + v²) remains constant, guaranteeing that orientation and frequency vary independently."
+      "text": "Changing θ rotates the wave while **f = √(u² + v²)** remains constant, guaranteeing that orientation and frequency vary independently."
     },
     {
       "text": "We said that f and β define the shape of the gaussian envelope, so intuitively, the same shape also governs orientation resolution. This gives a resolution-angle tradeoff where a filter tuned to one orientation θ still responds, to some degree, to features at nearby angles, and how much depends on the size of β. In plain words, the filter can only see the orientation that the shape of its envelope allows it to resolve."
