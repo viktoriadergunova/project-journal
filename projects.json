@@ -3,6 +3,7 @@
     "id": "polynomial-time",
     "title": "are we really gonna talk about polynomial time in times like this?",
     "status": "active",
+     "hidden": true,
     "finished": null,
     "entryFiles": [
     "projects/polynomial-time/part-.json"
