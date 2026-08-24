@@ -10,7 +10,7 @@ async function loadProjects() {
     }
 
     // For each project, fetch all of its entry files in parallel.
-    const projects = await Promise.all(index.map(async (proj) => {
+    const projects = await Promise.all(index.filter(proj => !proj.hidden).map(async (proj) => {
       const files = Array.isArray(proj.entryFiles) ? proj.entryFiles : [];
       const entries = await Promise.all(files.map(async (path) => {
         try {
