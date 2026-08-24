@@ -11,18 +11,18 @@
       "text": "In the diagram the two curves (solid and dashed) at the top are the two step functions. At the beginning each one sits at zero and then jumps up to one at a certain moment and stays there."
     },
     {
-      "text": "The solid curve jumps up at τ₁ and the dashed curve jumps up a bit later at τ₂. So between τ₁ and τ₂ there's a window where the two functions disagree. That disagreement is exactly what the shaded rectangle at the bottom shows."
+      "text": "The solid curve jumps up at **τ₁** and the dashed curve jumps up a bit later at **τ₂**. So between **τ₁** and **τ₂** there's a window where the two functions disagree. That disagreement is exactly what the shaded rectangle at the bottom shows."
     },
     {
-      "text": "So the \"line\" from the filter response is a byproduct of comparing two step functions and looking at where they differ. Its position is set by where τ₁ sits on the t-axis, and its length is just how far apart the two delays τ₂ − τ₁ are."
+      "text": "So the \"line\" from the filter response is a byproduct of comparing two step functions and looking at where they differ. Its position is set by where **τ₁** sits on the t-axis, and its length is just how far apart the two delays **τ₂** − **τ₁** are."
     },
     {
-      "text": "The same concept applies in two dimensions, only that the line now has thickness and can be described as a combination of two independent step functions along the x and y axes.",
+      "text": "The same concept applies in two dimensions, only that the line now has thickness and can be described as a combination of two independent step functions along the **x** and **y** axes.",
       "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1787587362/Bildschirmfoto_2026-08-25_um_00.02.34_nzh0ey.png"
     }
   ],
   "closing": [
-    "The x-boundaries (x₁, x₂) ask whether the point's x-coordinate falls inside that interval, and the y-boundaries (y₁, y₂) ask the same of its y-coordinate. Restricting x alone gives you the segment's length and where it sits along the x-axis, while restricting y alone gives you its thickness and where it sits along the y-axis.",
+    "The **x**-boundaries (**x₁**, **x₂**) ask whether the point's **x**-coordinate falls inside that interval, and the **y**-boundaries (**y₁**, **y₂**) ask the same of its **y**-coordinate. Restricting **x** alone gives you the segment's length and where it sits along the **x**-axis, while restricting **y** alone gives you its thickness and where it sits along the **y**-axis.",
     "A point belongs to the thick line only once both step function comparisons agree, and the rectangle you see is a byproduct too, just like the 1D line was."
   ]
 }
