@@ -1,6 +1,7 @@
 {
   "date": "2026-08-25",
   "part": 1,
+  "subtitle": "one character, five words",
   "body": [
     "Walking through Shanghai and just for fun comparing the visual space of Mandarin and English signs, menu items, and advertisements, I noticed that signs taking only one or two characters in Mandarin often require four or five words in English. Intuitively, I assumed just by counting characters versus words that Mandarin was far more information-dense as a language.",
     "A quick search into how these writing systems work explained this difference, showing that Chinese characters (hanzi) are logographic and encode meaning directly, whereas English is alphabetic and builds meaning through sound-based units pieced together.",
