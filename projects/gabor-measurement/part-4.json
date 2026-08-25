@@ -1,7 +1,7 @@
 {
   "date": "2026-08-25",
   "part": 4,
-  "subtitle": "packed tight, kept apart"
+  "subtitle": "packed tight, kept apart",
   "body": [
     "So far, the line has only been defined, not measured. To see what a Gabor filter does to it, it helps to know that filtering is linear, which means filtering the line as a whole gives the same result as filtering each of its two edges separately and then combining the outputs. So instead of asking what the filter does to the rectangle, we can ask a simpler question about what the filter does to a single step edge.",
     "As already mentioned, the Gabor filter is a windowed oscillating wave packet, and when the filter slides past a single step edge, the result is a ringing and decaying oscillation consisting of a positive lobe, a negative lobe, and a smaller positive lobe, fading out as the filter moves away from the edge. This reaction is also called the step response.",
