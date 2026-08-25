@@ -1,7 +1,7 @@
 {
   "date": "2026-08-25",
   "part": 3,
-  "subtitle": "disagreement",
+  "subtitle": "agreement",
   "body": [
     "A 1D line can be represented as the interaction of two step functions, where the length is the difference between **$\\tau_2 - \\tau_1$**."
   ],
