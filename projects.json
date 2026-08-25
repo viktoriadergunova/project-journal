@@ -54,5 +54,14 @@
     "entryFiles": [
       "projects/vem-julia/part-1.json"
     ]
+   },
+  {
+    "id": "shenanigans-in-shanghai",
+    "title": "shenanigans in shanghai",
+    "status": "active",
+    "finished": null,
+    "entryFiles": [
+      "projects/shenanigans-in-shanghai/part-1.json"
+    ]
   }
 ]
