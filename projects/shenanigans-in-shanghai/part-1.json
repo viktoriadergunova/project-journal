@@ -3,12 +3,12 @@
   "part": 1,
   "subtitle": "one character, five words",
   "body": [
-    "Walking through Shanghai and just for fun comparing the visual space of Mandarin and English signs, menu items, and advertisements, I noticed that while a wet floor warning takes up just four compact characters (**小心地滑**, xiǎoxīn dì huá), the English equivalent stretches across multiple words and far more visual space. Intuitively, I assumed just by counting characters versus words that Mandarin was far more information-dense as a language."
+    "Walking through Shanghai and just for fun comparing the visual space of Mandarin and English signs, menu items, and advertisements, I noticed that while a wet floor warning takes up just four compact characters (**小心地滑**, **xiǎoxīn dì huá**), the English equivalent stretches across multiple words and far more visual space. Intuitively, I assumed just by counting characters versus words that Mandarin was far more information-dense as a language."
   ],
   "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1787651902/WhatsApp_Image_2026-08-25_at_17.53.08_vuial3.jpg",
   "closing": [
-    "A quick search into how these writing systems work explained this difference, showing that Chinese characters (hanzi) are logographic and encode meaning directly, whereas English is alphabetic and builds meaning through sound-based units pieced together.",
-    "Written phonetically, in pinyin, the same warning takes about as much space as its English counterpart, xiǎoxīn dì huá versus Caution: Wet Floor, suggesting it isn't Mandarin itself that's compact, but the logographic system.",
+    "A quick search into how these writing systems work explained this difference, showing that Chinese characters (**hanzi**) are logographic and encode meaning directly, whereas English is alphabetic and builds meaning through sound-based units pieced together.",
+    "Written phonetically, in **pinyin**, the same warning takes about as much space as its English counterpart, **xiǎoxīn dì huá** versus **Caution: Wet Floor**, suggesting it isn't Mandarin itself that's compact, but the logographic system.",
     "Looking for a bathroom, the single character **水** (shuǐ, meaning \"water\") visually evokes the concept of water instantly, whereas the English word has to be constructed letter by letter, converted via phonetics into sound, and only then mapped to the concept."
   ]
 }
