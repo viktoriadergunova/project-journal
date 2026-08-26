@@ -377,10 +377,11 @@ code {
 
 .log-image-caption {
   font-family: var(--mono);
-  font-size: 11px;
-  color: var(--ink-faint);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--ink);
   text-align: center;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .log-link {
