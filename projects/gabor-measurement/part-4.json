@@ -7,7 +7,7 @@
     "As already mentioned, the Gabor filter is a windowed oscillating wave packet, and when the filter slides past a single step edge, the result is a ringing and decaying oscillation consisting of a positive lobe, a negative lobe, and a smaller positive lobe...and so on...fading out as the filter moves away from the edge. This reaction is also called the step response.",
     "Each end of the line ($\\boldsymbol{\\tau_1}$ and $\\boldsymbol{\\tau_2}$) produces its own step response this way, which corresponds to the dashed and dotted curves in the diagram. Since a line has two edges, filtering it produces two of these distinct step responses and whether these two responses interact depends on their spatial separation and the filter's frequency and angle."
   ],
-  "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1787672959/panel_high_frequency_1_itcfro.png",
+  "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1787726746/panel_high_frequency_notitle_hd_yrtohz.png",
   "closing": [
     "In the first case, the frequency is high, so the oscillations are packed tightly and decay fast. The ripple from $\\boldsymbol{\\tau_1}$ has completely faded out by the time you get near $\\boldsymbol{\\tau_2}$, and vice versa. They never overlap, leaving a sum of „ripple, flat, ripple“ meaning the two step responses never interact."
   ]
