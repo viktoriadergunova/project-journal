@@ -5,7 +5,7 @@
   "body": [
     "A 1D line can be represented as the interaction of two step functions, where the length is the difference between **$\\tau_2 - \\tau_1$**."
   ],
-  "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1787587300/Bildschirmfoto_2026-08-25_um_00.01.32_kejy0y.png",
+  "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1787726571/line_1d_step_functions_hd_1_imv74f.png",
   "image_title": "1D",
   "steps": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "text": "The same concept applies in two dimensions, only that the line now has thickness and can be described as a combination of two independent step functions along the **x** and **y** axes.",
-      "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1787587362/Bildschirmfoto_2026-08-25_um_00.02.34_nzh0ey.png",
+      "image": "https://res.cloudinary.com/bodzxgtw/image/upload/v1787726662/line_2d_step_boundaries_hd_lg8qio.png",
       "image_title": "2D"
     }
   ],
