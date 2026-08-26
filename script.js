@@ -65,6 +65,10 @@ function renderProject(project) {
 
   const entriesHtml = entries.map(renderEntry).join('');
 
+  const tagsHtml = Array.isArray(project.tags) && project.tags.length
+    ? `<div class="project-tags">${project.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>`
+    : '';
+
   const sourcesHtml = Array.isArray(project.sources) && project.sources.length
     ? `
       <div class="sources is-collapsed">
@@ -86,6 +90,7 @@ function renderProject(project) {
         <h2 class="project-title">${escapeHtml(project.title || '')}</h2>
         <span class="status ${isDone ? 'done' : 'active'}">${statusLabel}</span>
       </div>
+      ${tagsHtml}
       <div class="entries">${entriesHtml}${sourcesHtml}</div>
     </article>
   `;
@@ -104,15 +109,19 @@ function renderEntry(entry) {
   const imageList = Array.isArray(entry.images)
     ? entry.images
     : (entry.image ? [entry.image] : []);
+  const imageCaption = entry.image_title
+    ? `<div class="log-image-caption">${escapeHtml(entry.image_title)}</div>`
+    : '';
   const images = imageList
     .map(src => `<img class="log-image" src="${src}" alt="" loading="lazy">`)
-    .join('');
+    .join('') + imageCaption;
 
   const steps = Array.isArray(entry.steps)
     ? entry.steps.map(s => `
         <div class="log-step">
           <p>${formatText(s.text || '')}</p>
           ${s.image ? `<img class="log-image" src="${s.image}" alt="" loading="lazy">` : ''}
+          ${s.image_title ? `<div class="log-image-caption">${escapeHtml(s.image_title)}</div>` : ''}
         </div>
       `).join('')
     : '';
