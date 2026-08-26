@@ -179,6 +179,22 @@ code {
   padding: 14px 16px;
 }
 
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 0 16px 12px;
+}
+
+.tag {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--ink-dim);
+  background: var(--bg-card-muted);
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
 .project-icon {
   width: 34px;
   height: 34px;
@@ -359,6 +375,14 @@ code {
   display: block;
 }
 
+.log-image-caption {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--ink-faint);
+  text-align: center;
+  margin-top: 6px;
+}
+
 .log-link {
   display: inline-block;
   margin-top: 6px;
@@ -492,3 +516,4 @@ code {
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
 }
+
